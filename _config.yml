@@ -58,7 +58,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Selim Can Mutlu"
   avatar : "https://avatars.githubusercontent.com/u/98896119?v=4"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:

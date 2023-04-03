@@ -34,10 +34,10 @@
   @include social-media-icon($linkedin-color, $icon-transition-time);
 }
 
-.fa-facebook {
-  padding: 5px;
-  @include social-media-icon($facebook-color, $icon-transition-time);
-}
+// .fa-facebook {
+//   padding: 5px;
+//   @include social-media-icon($facebook-color, $icon-transition-time);
+// }
 
 .fa-google-plus {
   padding: 5px;

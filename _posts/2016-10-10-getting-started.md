@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Getting Started"
+title: ""
 author: "Paul Le"
 categories: documentation
 tags: [documentation,sample]

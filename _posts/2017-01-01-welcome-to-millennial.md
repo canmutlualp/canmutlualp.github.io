@@ -15,7 +15,7 @@ Millennial is a minimalist Jekyll theme. The purpose of this theme is to provide
 
 ## Example Content
 
-[Text and Formatting]({{ site.github.url }}{% post_url 2016-09-09-text-formatting %})
+<!-- [Text and Formatting]({{ site.github.url }}{% post_url 2016-09-09-text-formatting %}) -->
 
 ## Questions?
 

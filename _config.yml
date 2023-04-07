@@ -10,7 +10,7 @@ permalink:           /:title
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           "Acquiring Expertise in Rust"
+title:		           "Mastering Rust in the Realm of Cybersecurity"
 description:	       ""
 author:              ""
 

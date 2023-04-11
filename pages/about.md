@@ -4,7 +4,7 @@ title: About
 permalink: /about
 ---
 
-
+<img src="assets/img/map2.png" style="transform: scale(1.4);filter: brightness(50%) contrast(150%) drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.5));" alt="Cool intro photo">
 
 As a committed Redhat system administrator, I aim to present and expound upon my progression in learning Redhat Systems. To delve deeper, don't hesitate to browse through the posts.
 

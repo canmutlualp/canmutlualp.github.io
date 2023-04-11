@@ -10,8 +10,8 @@ As a committed Redhat system administrator, my objective is to transform into a 
 
 Certificates:
 <div class="parent-divcert" style="display:flex;">
-Rhcsa
+<span>Rhcsa</span>
 <div data-iframe-width="500" data-iframe-height="500" data-share-badge-id="bc126388-41a2-48d3-85b9-12a747027e06" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-Rhce
+<span>Rhce</span>
 <div data-iframe-width="500" data-iframe-height="500" data-share-badge-id="e95a7b0b-bab4-42d4-953f-6b79e8c472dc" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 </div>

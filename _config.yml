@@ -10,7 +10,7 @@ permalink:           /:title
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           "Selim Can Mutlu - DeepMistral"
+title:		           "Selim Can Mutlu - Redhat - Computer Programming"
 description:	       ""
 author:              "Selim Can Mutlu"
 

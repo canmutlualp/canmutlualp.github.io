@@ -6,7 +6,7 @@ permalink: /about
 
 
 
-As a committed Redhat system administrator, my objective is to transform into a skilled Rust programmer. This blog is designed to present and expound upon my progression in learning Rust, focusing on cybersecurity-centric projects. To delve deeper, don't hesitate to browse through the posts.
+As a committed Redhat system administrator, I aim to present and expound upon my progression in learning Redhat Systems. To delve deeper, don't hesitate to browse through the posts.
 
 Certificates:
 <div class="parent-divcert" style="display:flex;">

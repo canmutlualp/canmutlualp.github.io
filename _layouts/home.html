@@ -3,8 +3,9 @@ layout: default
 title: Home
 ---
 <div>
-  <img src="assets/img/bridge-1.jpg" style="transform: scale(1.4);filter: brightness(50%) contrast(150%) drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.5));" alt="Cool intro photo">
+  <img src="assets/img/bridge-1.jpg" alt="Bridge" style="display: block; width: 100%; max-width: 600px; margin: 20px auto; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08); filter: brightness(110%);">
 </div>
+
 {% for post in paginator.posts %}
   {% include featured-post.html %}
 {% endfor %}

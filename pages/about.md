@@ -5,7 +5,7 @@ permalink: /about
 ---
 <div style="height: 97vh;display:flex;flex-direction:column;overflow:hidden;">
     <div>
-        <img src="assets/img/map2.png" style="transform: scale(1.2);filter: brightness(50%) contrast(150%) drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.5));" alt="Cool intro photo">
+        <img src="assets/img/map2.png" style="width: 100%; max-width: 900px;transform: scale(1.2);filter: brightness(50%) contrast(150%) drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.5));" alt="Cool intro photo">
     </div>
     <div>
         <p style="margin-top:80px">

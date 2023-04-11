@@ -3,7 +3,8 @@ layout: page
 title: About
 permalink: /about
 ---
-![alt text](assets/img/map2.png "Millennial Demo Image")
+<img src="assets/img/map2.png" alt="A cool image" style="display: block; margin: 0 auto; max-width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 8px 12px rgba(0, 0, 0, 0.2)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 6px rgba(0, 0, 0, 0.1)'">
+
 
 <p>
     As a committed Redhat system administrator, I aim to present and expound upon my progression in learning Redhat Systems. To delve deeper, don't hesitate to browse through the posts.

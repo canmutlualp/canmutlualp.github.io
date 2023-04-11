@@ -10,7 +10,7 @@ permalink: /about
     As a committed Redhat system administrator, I aim to present and expound upon my progression in learning Redhat Systems. To delve deeper, don't hesitate to browse through the posts.
 </p>
 Certificates:
-<div class="parent-divcert" style="display:flex;">
+<div class="parent-divcert" style="display:flex;max-height=300px;height:250px;">
     <div style="position:relative; width=100%; margin-right: 5px;">
         <span style="position:absolute; top:0; left:50%; transform:translateX(-50%);">RHCSA</span>
         <div data-iframe-width="300" data-iframe-height="500" data-share-badge-id="bc126388-41a2-48d3-85b9-12a747027e06" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>

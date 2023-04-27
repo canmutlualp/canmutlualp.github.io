@@ -8,7 +8,7 @@ permalink: /about
 <div>
 
 <p>
-    As a committed Redhats DevOpsd Engineer, I aim to present and expound upon my progression in learning Redhat Systems. To delve deeper, don't hesitate to browse through the posts.
+    As a committed Red hat DevOps Engineer, I aim to present and expound upon my progression in learning Red hat Systems. To delve deeper, don't hesitate to browse through the posts.
 </p>
 Certificates:
 <div class="parent-divcert" style="display:flex;max-height=300px;height:250px;">

@@ -63,7 +63,7 @@ nmap -sC -sV -p- 192.168.0.128
 -sV : enumerate versions
 -p- : scan all ports**
 
-### Changing default root directory to non-default place
+### Changing default root directory to a Non-default place
 I chose to place web files under the /mnt directory, rather than the default document root /usr/share/nginx/html/index.html. I created directories and looked into SELinux permissions respectively, and then realized that the **httpd_sys_content_t** label was not present. This label is essential for the webserver to have context mapping between the nginx process and CentOS, since the process will try to access the file hosted on CentOS. Now, the question might arise as to how we can possibly know which context label to set? Let's check out the default nginx context labels for reference.
 ```bash
 ls -laZ /usr/share/nginx/html/
@@ -112,7 +112,7 @@ Create index.html under /mnt/scanmutlu.nl
 </html>
 ```
 
-### Changing Default port(80) to Non-Default Port(2500)
+### Changing Default port(80) to a Non-default Port(2500)
 Both SELinux and firewall configuration should be adjusted accordingly. We need a variance of semanage command that is **semanage port** to set correct context label for the custom port.
 See all port context labels related http port;
 ```bash 
@@ -136,12 +136,12 @@ firewall-cmd --list-ports
 Consequently, **httpd** service should be allowed to be redirected at other websites, as it is by default restricted. **setsebool** command should be used subsequently. 
 **-P** argument stands for persistence.
 See all booleans with **getsebool -a**
-**-a** argument stands for listing all booleans.
 ```bash
 getsebool -a 
 setsebool -P httpd_can_network_connect 1
 ```
 ![Alt text](assets/img/15setsebool-Phttpd_can_network_connect1.png)
+**-a** argument stands for listing all booleans.
 
 ### Adjusting Nginx Configuration File
 If you've made it this far, there is one crucial step left, which is the modification of the default configuration file located in **/etc/nginx/nginx.conf**. There are some lines worth mentioning. There are 3 server blocks in total. Since I want to serve over the custom port 2500, I have returned a **403** code in the second server block for port 80. The **proxy_pass** directive is used to convey the semantics of redirection to the **.nl** domain in the third server block.

@@ -23,7 +23,7 @@ See all relevant files for nginx and see their file types.
 ```bash
 rpm -ql nginx | xargs file
 ```
-![[2-rpmxargs.png|900]]
+![Alt text](assets/img/2-rpmxargs.png)
 
 ### Configuring Firewall
 Default webserver ports, that is 80, 443, have been opened.
@@ -32,19 +32,19 @@ firewall-cmd --add-port=80/tcp --permanent
 firewall-cmd --add-port=443/tcp --permanent
 ```
 
-![[3-firewall-cmd-add-port.png]]
+![Alt text](assets/img/3-firewall-cmd-add-port.png)
 
 Let the changes be in effect by reloading the firewall.
 ```bash
 firewall-cmd --reload
 ```
-![[4-firewall-cmd--reload.png]]
+![Alt text](assets/img/4-firewall-cmd--reload.png)
 Check out if everything worked out as intended.
 ```bash
 firewall-cmd --list-ports
 ```
 
-![[5-firewall-cmd--list-ports.png]]
+![Alt text](assets/img/5-firewall-cmd--list-ports.png)
 
 ### Enabling and Starting Nginx
 With enable option service gets started at boot automatically.
@@ -53,7 +53,7 @@ systemctl enable --now nginx
 systemctl status nginx
 ```
 
-![[6-systemctlenable--nownginx.png|1000]]
+![Alt text](assets/img/6-systemctlenable--nownginx.png)
 The availability of the service can also be verified by firing up nmap command.
 
 ```bash
@@ -68,7 +68,7 @@ I chose to place web files under the /mnt directory, rather than the default doc
 ```bash
 ls -laZ /usr/share/nginx/html/
 ```
-![[9-lsalzusrsharenginxhtml.png|1000]]
+![Alt text](assets/img/9-lsalzusrsharenginxhtml.png)
 See **httpd_sys_content_t**
 
 ```bash
@@ -76,14 +76,14 @@ mkdir -p /mnt/scanmutlu.nl/
 mkdir -p /mnt/scanmutlu.net/
 ls -lZ /mnt/
 ```
-![[8-lslZmnt.png|1000]]
+![Alt text](assets/img/8-lslZmnt.png)
 
 ```bash
 semanage fcontext -a -t httpd_sys_content_t "/mnt/scanmutlu.net(/.*)?"
 restorecon -Rv /mnt/scanmutlu.net
 ls -ldZ /mnt/scanmutlu.net/
 ```
-![[10-semanagefcontextrestorecon.png|800]]
+![Alt text](assets/img/10-semanagefcontextrestorecon.png)
 
 ```bash
 semanage fcontext -a -t httpd_sys_content_t "/mnt/scanmutlu.nl(/.*)?"
@@ -91,7 +91,7 @@ restorecon -Rv /mnt/scanmutlu.nl
 ls -ldZ /mnt/scanmutlu.nl
 ```
 
-![[11-semanagenl11.png|800]]
+![Alt text](assets/img/11-semanagenl11.png)
 The contents for root directories should be filled out now.
 Create index.html under /mnt/scanmutlu.net
 ```html
@@ -118,20 +118,20 @@ See all port context labels related http port;
 ```bash 
 semanage port -l | grep -i http
 ```
-![[12semanageport-lgrep-ihttp.png]]
+![Alt text](assets/img/12semanageport-lgrep-ihttp.png)
 It is evident that the custom port tcp/2500 we are going to connect does not associate with **http_port_t** port context label.  tcp/2500 must be inserted to this group of ports. 
 ```bash
 semanage port -a -t http_port_t -p tcp 2500
 semanage port -l | grep -i http
 ```
-![[13semageport-lgrep-ihttp.png]]
+![Alt text](assets/img/13semageport-lgrep-ihttp.png)
 Now it is time to adjust firewall configuration with port 2500.
 ```bash
 firewall-cmd --add-port=tcp/2500 --permanent
 firewall-cmd --reload
 firewall-cmd --list-ports
 ```
-![[14-firewall-cmd--add-port=2500tcp.png]]
+![Alt text](assets/img/14-firewall-cmd--add-port=2500tcp.png)
 
 Consequently, **httpd** service should be allowed to be redirected at other websites, as it is by default restricted. **setsebool** command should be used subsequently. 
 **-P** argument stands for persistence.
@@ -141,7 +141,7 @@ See all booleans with **getsebool -a**
 getsebool -a 
 setsebool -P httpd_can_network_connect 1
 ```
-![[15setsebool-Phttpd_can_network_connect1.png]]
+![Alt text](assets/img/15setsebool-Phttpd_can_network_connect1.png)
 
 ### Adjusting Nginx Configuration File
 If you've made it this far, there is one crucial step left, which is the modification of the default configuration file located in **/etc/nginx/nginx.conf**. There are some lines worth mentioning. There are 3 server blocks in total. Since I want to serve over the custom port 2500, I have returned a **403** code in the second server block for port 80. The **proxy_pass** directive is used to convey the semantics of redirection to the **.nl** domain in the third server block.
@@ -194,7 +194,7 @@ Check out the syntax of the configuration nginx file.
 ```bash
 nginx -t
 ```
-![[16-nginx-t.png]]
+![Alt text](assets/img/16-nginx-t.png)
 Restart the service
 ```bash
 systemctl restart nginx
@@ -205,12 +205,12 @@ I have spinned up Fedora client for testing the webserver.
 ```url
 http://scanmutlu.nl:2500
 ```
-![[17-scanmutlu.nl.png]]
+![Alt text](assets/img/17-scanmutlu.nl.png)
 ```url
 http://scanmutlu.net
 ```
 This has successfully redirected to scanmutlu.nl as expected.
-![[18-scanmutlu.net.png]]
+![Alt text](assets/img/18-scanmutlu.net.png)
 
 #### References
 - https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/deploying_different_types_of_servers/setting-up-and-configuring-nginx_deploying-different-types-of-servers

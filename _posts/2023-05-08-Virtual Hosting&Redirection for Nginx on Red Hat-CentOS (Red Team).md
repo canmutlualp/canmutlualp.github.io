@@ -2,7 +2,7 @@
 layout: post
 title: "Virtual Hosting & Redirection for Nginx on Red Hat-CentOS (Red Team)"
 author: "Selim Can Mutlu"
-categories: resources
+categories: sample
 tags: [documentation,sample]
 image: basic-redirector.png
 ---

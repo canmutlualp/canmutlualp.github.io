@@ -16,7 +16,7 @@ Nginx can be used for various purposes, such as a web server, reverse proxy, or 
 ```bash
 yum install -y nginx
 ```
-![[assets/img/1-yuminstall.png|1000]]
+![Alt text](assets/img/1-yuminstall.png)
 
 Installation can be verified with **rpm** command. 
 See all relevant files for nginx and see their file types.

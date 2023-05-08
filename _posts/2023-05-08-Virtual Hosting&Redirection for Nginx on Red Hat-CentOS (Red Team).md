@@ -2,8 +2,9 @@
 layout: post
 title: "Virtual Hosting & Redirection for Nginx on Red Hat-CentOS (Red Team)"
 author: "Selim Can Mutlu"
-categories: sample
+categories: sample-posts
 tags: [documentation,sample]
+permalink: /sample-posts
 image: basic-redirector.png
 ---
 Nginx can be used for various purposes, such as a web server, reverse proxy, or load balancer. In this post, I will go through the steps of installing an Nginx web server and configuring simple redirection for TLDs (Top Level Domains) (.nl, .com, .net), along with running the server on a non-default port. You might be asking now why I do not prefer the Apache web server. It's because Nginx outperforms Apache when it comes to serving as a reverse proxy, but the situation is reversed when it comes to functioning as a web server. This installation will be combined with hosting phishing emulation for Red Team engagements in the days to come.

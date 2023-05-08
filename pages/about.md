@@ -4,7 +4,7 @@ title: About
 permalink: /about
 ---
 <div>
-<img src="assets/img/IMG-20230123-WA0043.jpg" alt="A cool image" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; border: 3px solid #fff; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
+<img src="assets/img/IMG-20230123-WA0043.jpg" alt="A cool image" class="profile-photo">
 <div>
 
 <p>

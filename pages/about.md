@@ -14,6 +14,7 @@ permalink: /about
     Red Hat Certified System Administrator RHEL 8 - RHCSA<br>
     Red Hat Certified Engineer RHEL 8 - RHCE<br>
     Red Hat Certified Specialist in Containers - EX188<br>
+    <br>
 </p>
 <div class="parent-divcert" style="display:flex;max-height=300px;height:250px;">
     <div style="position:relative; width=100%; margin-right: 5px;">

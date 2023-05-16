@@ -23,4 +23,4 @@ permalink: /about
         <div data-iframe-width="300" data-iframe-height="500" data-share-badge-id="e95a7b0b-bab4-42d4-953f-6b79e8c472dc" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
     </div>
 </div>
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="aa6027a2-01c7-4a1c-8e76-2a0d7f29c893" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+<div data-iframe-width="300" data-iframe-height="500" data-share-badge-id="aa6027a2-01c7-4a1c-8e76-2a0d7f29c893" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>

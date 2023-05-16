@@ -8,12 +8,11 @@ permalink: /about
 <div>
 
 <p>
+    As a committed Red Hat DevOps Engineer, I aim to present and expound upon my progression in learning Red Hat Systems. To delve deeper, don't hesitate to browse through the posts.<br>
     Red Hat Certified System Administrator RHEL 8 - RHCSA<br>
     Red Hat Certified Engineer RHEL 8 - RHCE<br>
     Red Hat Certified Specialist in Containers - EX188<br>
-    As a committed Red Hat DevOps Engineer, I aim to present and expound upon my progression in learning Red Hat Systems. To delve deeper, don't hesitate to browse through the posts.
 </p>
-Certificates:
 <div class="parent-divcert" style="display:flex;max-height=300px;height:250px;">
     <div style="position:relative; width=100%; margin-right: 5px;">
         <span style="position:absolute; top:0; left:50%; transform:translateX(-50%);">RHCSA</span>

@@ -4,7 +4,6 @@ title: Coupons
 category: coupons
 permalink: /coupons
 ---
-```
 
 ## Learn EX188 Red Hat Containers with Me 
 

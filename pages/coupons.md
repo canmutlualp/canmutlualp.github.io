@@ -6,8 +6,12 @@ permalink: /coupons
 ---
 ```
 
-Examples of what posts looks like can be found in the `_posts` directory, which includes this post you are reading right now. Posts are the basic blog post layout, which includes a header image, post content, author name, date published, social media sharing links, and related posts.
+## Learn EX188 Red Hat Containers with Me 
 
-Pages are essentially the post layout without any of the extra features of the posts layout. An example of what pages look like can be found at the [documentation page](https://lenpaul.github.io/Millennial/pages/documentation.html).
+Hey there! I'm excited to invite you to my course on **EX188 Red Hat Certified Specialist in Containers**. This course is focused on hands-on labs and is aligned with the Red Hat exam objectives, ensuring you're well-prepared.
 
-In addition to the two main layout options above, there are also custom layouts that have been created for the [home page](https://lenpaul.github.io/Millennial/) and the [contacts page](https://lenpaul.github.io/Millennial/pages/contact.html). These are simply just page layouts with some [Liquid template code](https://shopify.github.io/liquid/). Check out the `index.html` file in the root directory for what the code looks like.
+You can join using this link and get a special discount:
+
+[**Join with Discount**](https://www.udemy.com/course/ex188-red-hat-certified-specialist-in-containers-exam-prep/?couponCode=08_EX188)
+
+Hope to see you in the course!

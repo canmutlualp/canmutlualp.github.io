@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Coupons
+title: EX188 Red Hat Prep Coupons
 category: coupons
 permalink: /coupons
 ---

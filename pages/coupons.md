@@ -5,12 +5,16 @@ category: coupons
 permalink: /coupons
 ---
 
-## Learn EX188 Red Hat Containers on Udemy
+## Herkes için Temel Linux Eğitimi
 
-Hey there! I’m excited to invite you to my course on **EX188 Red Hat Certified Specialist in Containers** published on UDEMY. This course is focused on hands-on labs and is aligned with the Red Hat exam objectives, ensuring you're well-prepared.
+Linux'u kişisel kullanım veya profesyonel(devops, veri bilimi, siber güvenlik, vb.) gereksinimler dolayısıyla temel düzeyde öğrenmek istiyorsanız eğitim serilerine göz atabilirsiniz.
 
-You can join using this link on UDEMY with discount:
-
-[![Learn EX188 Red Hat Containers](https://scanmutlu.com/assets/img/channel image.webp)](https://www.udemy.com/course/ex188-red-hat-certified-specialist-in-containers-exam-prep/?referralCode=46D36D3371286E702363)
-
-Hope to see you in the course!
+<div style="max-width: 800px; margin: 0 auto; text-align: center;">
+  <div style="text-align: center; margin-bottom: 20px;">
+    <h3 style="background-color: #e0f7fa; padding: 10px;">Video Eğitim</h3>
+    <a href="https://www.udemy.com/course/ex188-red-hat-certified-specialist-in-containers-exam-prep/?referralCode=46D36D3371286E702363">
+      <img src="/assets/img/channel%20image.webp" alt="Video Eğitim" style="max-width: 100%; height: auto;">
+    </a>
+    <p>Temel Linux kullanımı için video, doküman ve testleri barındıran Udemy eğitimi.</p>
+  </div>
+</div>

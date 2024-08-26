@@ -1,20 +1,18 @@
 ---
 layout: post
-title: EX188 Prep Course
+title: coupons
 category: coupons
 permalink: /coupons
 ---
 
-## EX188 Red Hat Certified Specialist in Containers Exam Prep Course
+## Herkes için Temel Linux Eğitimi
 
-If you would like to gain hands-on experience for tackling EX188 and containers overall, feel free to have a look at my course hosted on Udemy.
+Linux'u kişisel kullanım veya profesyonel(devops, veri bilimi, siber güvenlik, vb.) gereksinimler dolayısıyla temel düzeyde öğrenmek istiyorsanız eğitim serilerine göz atabilirsiniz.
 
-<div style="max-width: 800px; margin: 0 auto; text-align: center;">
-  <div style="text-align: center; margin-bottom: 20px;">
-    <h3 style="background-color: #e0f7fa; padding: 10px; font-size: 1.5em; border-radius: 8px;">Udemy</h3>
-    <a href="https://www.udemy.com/course/ex188-red-hat-certified-specialist-in-containers-exam-prep/?referralCode=46D36D3371286E702363">
-      <img src="/assets/img/channel%20image.webp" alt="Video Eğitim" style="max-width: 60%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);">
-    </a>
-    <p style="font-size: 1.2em;">EX188 Exam Preparation</p>
+<a href="https://www.udemy.com/course/ex188-red-hat-certified-specialist-in-containers-exam-prep/?referralCode=46D36D3371286E702363" style="text-decoration: none; color: inherit;">
+  <div style="max-width: 800px; margin: 20px auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center;">
+    <h3 style="background-color: #e0f7fa; padding: 10px; font-size: 1.5em; border-radius: 8px;">Video Eğitim</h3>
+    <img src="/assets/img/channel%20image.webp" alt="Video Eğitim" style="max-width: 50%; height: auto; border-radius: 8px; margin-bottom: 10px;">
+    <p style="font-size: 1.2em;">Temel Linux kullanımı için video, doküman ve testleri barındıran Udemy eğitimi.</p>
   </div>
-</div>
+</a>

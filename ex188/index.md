@@ -10,6 +10,6 @@ permalink: /ex188/
     <title>Redirecting...</title>
 </head>
 <body>
-    <p>If you are not redirected automatically, follow this <a href="https://www.udemy.com/course/ex188-red-hat-certified-specialist-in-containers-exam-prep/?referralCode=46D36D3371286E702363">link to the course</a>.</p>
+    <p>If you are not redirected automatically, follow this <a href="https://www.udemy.com/course/ex188-red-hat-certified-specialist-in-containers-exam-prep/?couponCode=10_EX188">link to the course</a>.</p>
 </body>
 </html>

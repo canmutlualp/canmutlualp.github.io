@@ -6,7 +6,7 @@ permalink: /ex188/
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="refresh" content="0;url=https://www.udemy.com/course/ex188-red-hat-certified-specialist-in-containers-exam-prep/?referralCode=46D36D3371286E702363" />
+    <meta http-equiv="refresh" content="0;url=https://www.udemy.com/course/ex188-red-hat-certified-specialist-in-containers-exam-prep/?couponCode=10_EX188" />
     <title>Redirecting...</title>
 </head>
 <body>

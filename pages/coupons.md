@@ -12,7 +12,7 @@ If you would like to go through all of the exam objectives, you might want to ta
     <a href="https://www.udemy.com/course/ex188-red-hat-certified-specialist-in-containers-exam-prep/?couponCode=10_EX188" style="text-decoration: none; color: inherit;">
         <h3 style="background-color: #dcedc8; padding: 10px; font-size: 1.5em; border-radius: 8px;">EX188 Education</h3>
     </a>
-    <a href="https://www.udemy.com/course/ex188-red-hat-certified-specialist-in-containers-exam-prep/?couponCode=10_EX188>
+    <a href="https://www.udemy.com/course/ex188-red-hat-certified-specialist-in-containers-exam-prep/?couponCode=10_EX188">
         <img src="/assets/img/channel%20image.webp" alt="EX188 Education" style="display: block; margin: 0 auto; max-width: 40%; height: auto; border-radius: 8px;">
     </a>
 </div>

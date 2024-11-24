@@ -9,10 +9,10 @@ permalink: /coupons/
 If you would like to go through all of the exam objectives, you might want to take a have look at my EX188 course on Udemy.
 
 <div style="max-width: 800px; margin: 20px auto; text-align: center;">
-    <a href="https://www.udemy.com/course/ex188-red-hat-certified-specialist-in-containers-exam-prep/?couponCode=10_EX188" style="text-decoration: none; color: inherit;">
+    <a href="https://www.udemy.com/course/ex188-red-hat-certified-specialist-in-containers-exam-prep/?couponCode=5E59693443E6FC9EAE9D" style="text-decoration: none; color: inherit;">
         <h3 style="background-color: #dcedc8; padding: 10px; font-size: 1.5em; border-radius: 8px;">EX188 Education</h3>
     </a>
-    <a href="https://www.udemy.com/course/ex188-red-hat-certified-specialist-in-containers-exam-prep/?couponCode=10_EX188">
+    <a href="https://www.udemy.com/course/ex188-red-hat-certified-specialist-in-containers-exam-prep/?couponCode=5E59693443E6FC9EAE9D">
         <img src="/assets/img/channel%20image.webp" alt="EX188 Education" style="display: block; margin: 0 auto; max-width: 40%; height: auto; border-radius: 8px;">
     </a>
 </div>
